@@ -28,5 +28,23 @@
 }
 .dropdown-item {
   color: white;
-  font-size: large;
+  font-size: larger;
+  padding: 15px 40px;
 }
+.dropdown-item:hover {
+  background-color: rgb(255, 230, 230);
+  color: rgb(255, 0, 0);
+}
+.mayhem-img {
+  margin-top: 50px;
+}
+@media only screen and (max-width:991px){
+  .nav {
+    flex-direction: column;
+  }
+}
+  @media only screen and (min-width:992px){
+    .mayhem-img {
+      max-width: 1000px;
+    }
+  }
