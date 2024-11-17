@@ -38,6 +38,9 @@
 .mayhem-img {
   margin-top: 50px;
 }
+.navbar-toggler-icon {
+  background-image: url(img/icons8-menu-50.png);
+}
 @media only screen and (max-width:991px){
   .nav {
     flex-direction: column;
