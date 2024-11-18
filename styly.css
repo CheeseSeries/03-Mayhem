@@ -41,6 +41,12 @@
 .navbar-toggler-icon {
   background-image: url(img/icons8-menu-50.png);
 }
+.members {
+  margin-top: 300px;
+}
+.navbar {
+  background-color: black;
+}
 @media only screen and (max-width:991px){
   .nav {
     flex-direction: column;
@@ -50,4 +56,89 @@
     .mayhem-img {
       max-width: 1000px;
     }
+    .members {
+      max-width: 1000px;
+    }
   }
+  .info p {
+    font-size: larger;
+    margin-top: 15px;
+  }
+  .info {
+    margin-top: 50px;
+    color: white;
+  }
+      /*↓Spec. CSS pro akce.html↓*/
+
+.odkazy ul {
+  list-style-type: none;
+}
+.odkazy {
+  margin-top: 100px;
+}
+.odkazy button {
+  padding: 15px;
+  background-color: rgb(110, 0, 0);
+  color: white;
+  border: none;
+  font-weight: 700;
+}
+.odkazy button:hover {
+  color: rgb(255, 41, 41);
+}
+.odkazy li {
+  border-bottom: 1px;
+  border-color: rgb(29, 29, 29);
+  padding-bottom: 5px;
+  margin-top: 10px;
+  border-style: solid;
+  flex-direction: row;
+  display: flex;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  height: fit-content;
+}
+.odkazy li a {
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+}
+.odkazy li a div {
+  flex-direction: row;
+  display: flex;
+}
+.odkazy li a div p {
+  padding: 10px;
+  margin: 0px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: large;
+}
+.odkazy a:hover {
+  color: rgb(255, 53, 53);
+}
+@media only screen and (max-width:575px){
+  .odkazy li {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .odkazy li a {
+    flex-direction: column;
+  }
+  .odkazy button {
+    width: 90%;
+  }
+  .odkazy li a div p {
+    border-bottom: 1px;
+    border-color: rgb(31, 31, 31);
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+  .odkazy ul {
+    margin-top: 0px;
+  }
+}

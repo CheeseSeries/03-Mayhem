@@ -8,7 +8,7 @@
   </head>
   <body class="bg-black">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg sticky-top">
   <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -19,7 +19,7 @@
           <h4><a class="nav-link active text-cs" aria-current="page" href="#">Mayhem</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link text-cs" href="#">Akce</a></h4>
+          <h4><a class="nav-link text-cs" href="html/akce.html">Akce</a></h4>
         </li>
         <li class="nav-item">
           <h4><a class="nav-link text-cs" href="#">Kontakty</a></h4>
@@ -31,7 +31,7 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Diskografie</a></li>
             <li><a class="dropdown-item" href="#">Biografie</a></li>
-            <li><a class="dropdown-item" href="#">Fotky</a></li>
+            <li><a class="dropdown-item" href="#">Galerie</a></li>
           </ul>
         </div>
       </ul>
@@ -41,14 +41,34 @@
     <div class="d-flex justify-content-center">
       <img class="mayhem-img container" src="img/logo-mayhem.png" alt="">
     </div>
-    <div>
-      <ul>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-      </ul>
+    <div class="members container">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/members1.webp" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/members2.png" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/members3.webp" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="info">
+        <h1>Mayhem</h1>
+        <p>Mayhem je norská black metalová kapela, považovaná za jednu z nejvýznamnějších v tomto žánru. Byla založena v roce 1984 v Oslu a proslula svým temným, kontroverzním a násilným image. Kapela je známá pro svůj vliv na druhou vlnu black metalu a pro skandály spojené s násilím, sebevraždou a vraždou v rámci její historie.</p>
+        <p>Nejzásadnější období Mayhem zahrnuje alba jako "De Mysteriis Dom Sathanas" (1994), které je považováno za klasiku žánru. Kapela zažila bouřlivé změny v sestavě, včetně tragické smrti zpěváka Dead (sebevražda) a vraždy kytaristy Euronyma basákem Vargem Vikernesem (Burzum). Tato událost Mayhem katapultovala do centra pozornosti, čímž získala pověst jedné z nejtemnějších kapel metalové scény.</p>
+        <p>Hudebně jsou Mayhem známí pro své atmosférické, syrové a technicky propracované skladby, které měly velký vliv na vývoj black metalu. Dodnes jsou aktivní a pokračují ve vydávání alb i živém vystupování.</p>
+      </div>
     </div>
   </body>
 </html>
