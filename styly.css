@@ -54,10 +54,10 @@
 }
   @media only screen and (min-width:992px){
     .mayhem-img {
-      max-width: 1000px;
+      max-width: 900px;
     }
     .members {
-      max-width: 1000px;
+      max-width: 900px;
     }
   }
   .info p {
@@ -67,6 +67,30 @@
   .info {
     margin-top: 50px;
     color: white;
+  }
+  footer {
+    height: 100px;
+    padding: 20px;
+    margin-top: 200px;
+    padding-top: 0px;
+  }
+  footer button {
+    width: 60px;
+    height: 60px;
+    border-radius: 48%;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+  }
+  .spotify {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  footer img {
+    width: 40px;
   }
       /*↓Spec. CSS pro akce.html↓*/
 
