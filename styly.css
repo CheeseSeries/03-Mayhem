@@ -18,6 +18,13 @@
 .nav-underline .nav-link.active, .nav-underline .show>.nav-link {
   color: red;
 }
+.dropdown-item.active, .dropdown-item:active {
+  color: red;
+  background-color: white;
+}
+.acc {
+  color: red;
+}
 .drop {
   cursor: default;
 }
@@ -32,8 +39,8 @@
   padding: 15px 40px;
 }
 .dropdown-item:hover {
-  background-color: rgb(255, 230, 230);
-  color: rgb(255, 0, 0);
+  background-color: #ffffff;
+  color: rgb(219, 41, 41);
 }
 .mayhem-img {
   margin-top: 50px;
@@ -58,6 +65,9 @@
     }
     .members {
       max-width: 900px;
+    }
+    .diskografie {
+      max-width: 1400px;
     }
   }
   .info p {
@@ -92,6 +102,7 @@
   footer img {
     width: 40px;
   }
+
       /*↓Spec. CSS pro akce.html↓*/
 
 .odkazy ul {
@@ -166,3 +177,59 @@
     margin-top: 0px;
   }
 }
+
+      /*↓Spec. CSS pro akce.html↓*/
+
+  .kontakty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(226, 226, 226);
+    margin-top: 30px;
+  }
+  .kontakty p {
+    margin-bottom: 0px;
+  }
+  .kontakty a:hover {
+    color: rgb(255, 53, 53);
+  }
+  .kontakty a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+  }
+  .kontakty h5 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: rgb(226, 226, 226)
+  }
+  .kontakty h1 {
+    color: rgb(226, 226, 226)
+  }
+
+        /*↓Spec. CSS pro akce.html↓*/
+
+  .card {
+    color: white;
+    background-color: black;
+    border: none;
+    text-align: center;
+  }
+  .card-img, .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+  }
+  .card h5 {
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
+  .diskografie {
+    margin-top: 100px;
+  }
+  .row {
+    margin-top: 100px;
+  }
